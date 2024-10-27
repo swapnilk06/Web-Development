@@ -1,0 +1,582 @@
+
+29-9-24
+
+Only web development course that you will need. Covers HTML, CSS, Tailwind, Node, React, MongoDB, Prisma, Deployment etc.
+
+====================================================================================================================
+
+
+------------------------- Section 1 - Before web dev Journey ------------------------- 
+
+--------------------
+1. Course Introduction - Roadmap
+--------------------
+
+----Links------
+Roadmap -
+https://miro.com/app/board/uXjVKXRryxM=/
+---------------
+
+-----------------------------------------------------X----------------------------------------------------------
+
+--------------------
+2. Meet our Instructor - Hitesh
+--------------------
+
+- The course is not just about HTML, it's about learning how to design a good and proficient web applications.
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+--------------------
+3. Talk about AI type -
+--------------------
+
+The AI is really a friendly tool that you are having in your bag.
+In the earlier days, what we used to do is write all of the HTML code by hand.
+As the tools got evolved and matured, we have now these suggestion based tools which can just fill up my boilerplate code.
+AI - It is helping you to write your code and your software faster.
+
+And let me tell you a hidden secret about the software engineering or a web development in general.
+- The 20% of the time is just for writing the code.
+- The 30% of the time is for fixing the bug.
+- You understand the client requirements, you gather those requirements, and you propose possible solutions, which could be the best solution?
+Should we be using X database or Y? Should we be picking up X technology or Y technology? That's where the 50% of the time.
+
+Yes, AI can produce the code, but it's not all the best code and good code at the first time.
+It has a lot of hiccups, it has a lot of bugs, and sometimes even software engineers write much better and faster code compared to these AI generated code.
+
+Foundation are important -
+- no matter how good the tools become, eventually, end of the day, the foundations are really important.
+- You need to have good, solid foundations so that you can debug those things.
+
+AI - It's sometimes surely helps you to write code faster, but not accurately that good.
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+--------------------
+4. Jobs salary range & skills -
+--------------------
+
+- Can save all this information into database and can retrieve that information back from the database.
+This all is a job of a web developer.
+E.g. -
+Even taking the example of the chat GPT, the interface that you see on the chat GPT, yes, that's being designed by web developer.
+The ability of the chat GPT so that it can log you in via the Google or by any other means. Yes, that's the job of a web developer.
+The ability that you can see all of your past conversation.
+Yep, that's a web developer that somebody is storing all of your information into the database and is retrieving it out.
+
+Q. - I spent a good amount of time in this course, I will be learning thoroughly it, but what will I be doing after that?
+
+I have prepared a small map -
+
+Web development - web development is of course a big journey.It has a lot of things, front end, backend database, SQL databases, nosql databases, and then hosting in them or putting them into production.
+The little bit of the DevOps part which is also included in this course is a journey on its own self.
+
+Freelancing job -
+You just go through on different websites or ask your friends and family that hey, I'm a web developer, I have skills.
+Can I build a software for you?
+For example, a nearby gym?
+You can ask them, I can design a better software for you that can keep a track of all the people's monthly renewal cycle, yearly renewal cycle or give them a paid plan or something like that, or a saloon.
+
+You can just ask them to build a appointment system for them or a system where they can manage who comes into the job, who doesn't come to the job, and all these softwares, you can build that.
+That's kind of a freelancing job.
+
+Product route -
+You can build your own software's software as a service, also known as SaaS.
+And once this picks up, that's really nice.One of our SaaS product that we currently own holds or serves around 12 million users.
+You can just build a software and can ask people, hey, you can use my software, for example, just remove the background from the image. That is also a good skill and good software to build.
+
+Job Web Devloper -
+job of a web developer comes through with variety of the names.Some call it as SDE, some gets a little bit fancy, call it as SWE.(Software engineers, software development engineers.)
+
+Junior roles & senior roles -
+JR - ou have decent enough practice that you can build the software, but you haven't worked much in the team or have put much things into the production.
+But decently you have put that that's a junior role.
+
+SR - Senior roles is you have gone through with enough of the errors that you can manage the team as well as solve the errors faster.
+That's probably is the senior role.
+
+Frontend role -
+- interface that what you see on the in the hands or the clickable interface on the screen. That is all your front end part of it.
+
+Backend role -
+- Backend means you will be writing logics, you will be writing servers, all the logins, all these, all these business logics are going to go in the backend part of it.
+And of course backend also include databases as well.
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+--------------------
+5 - What tools you need for web development -
+--------------------
+ 
+Tools -
+    - Code Editor :  code highlight and auto completions and suggestions and can read through our files. That is what we call as code editor.
+	- Browser : Google Chrome
+
+- No code editor can make you a better coder, but knowing your code editor better can make you a faster developer.
+
+- So in the chrome, what you can do is at any page, at any website, you can just right click and click on the inspect.
+  - additional tools which are helpful for web development.
+  
+----Links------
+Code pen - Online Editor
+https://codepen.io/?cursor=ZD0xJm89MCZwPTEmdj04MTU2MQ==
+---------------
+
+E.g. - buttons design
+https://codepen.io/yuhomyan/pen/OJMejWJ
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+--------------------
+6 - How to setup your code editor -
+--------------------
+
+Chai theme -
+
+Setting --> Ctrl+, --> Open setting (JSON) - right top icon 
+
+    "editor.fontFamily": "mono Lisa",
+    "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 20,
+    "window.zoomlevel": 2,
+    "editor.wordWrap": "on",
+
+Extension - Live server --> Ctrl + p --> Live Server
+
+----Resources------
+VSCode Shortcuts.pdf
+-------------------
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+------------------------- Section 2 - Code files ------------------------- 
+
+----Resources------
+code files.zip
+-------------------
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+------------------------- Section 3 - Basics of web development ------------------------- 
+
+--------------------
+8 - How does the internet works ?
+--------------------
+
+My computer - IP address
+|
+ISP --> DNS 76.76.21.21
+|           |
+DNS         |
+            |
+chaicode.com  192.168.2.5
+
+Internet is - just the communication between the ISP, the domain name system, which gives me back the ip address and I am able to connect to any website that I see around.
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+---------------------
+9 - A big picture of Web application 
+---------------------
+
+My computer
+|
+|
+|
+|
+chaicode.com
+
+1] make a request to the server and you ask that hey server, I want to visit a page..
+
+2] server based on your request tries to either access its database or just sends you a response back.
+
+3] request came from this particular URL. So I need to send back a response to this user.
+
+4] step one of the server is to send first of all the HTML to the web browser.
+  - HTML is a semantic, it's a structure of your webpage.
+  - just a markup that you will need some of the text, some paragraphs, some headings.
+
+5] after that comes up is the CSS.
+  - CSS makes things a little bit more beautiful.
+  
+6] finally the functionality part of the application comes up, which is through the JavaScript.
+  - Javascript search features and ability to click the button.
+  - job of JavaScript is also to take some of the data from your browser to the server.
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+---------------------
+10 - Frontend backend & APIs 
+---------------------
+
+Frontend
+Backend
+API's
+Client server
+
+Server - 
+ - Server is just a software, a software that serves, it serves web application, it might serve something else.
+ -  your server part and that is termed as simply your back end.
+ 
+- HTML remains HTML, 
+- but for the CSS maybe there are some libraries that comes into the picture,    
+  - maybe Bootstrap which helps you to write CSS faster, 
+  - maybe tailwind, which helps you to write even faster, and variable of the CSS much easier.
+- JavaScript to its core foundation is JavaScript. some more additional tech come into the picture to handle and to make sure things are easy for you on the front end side.
+  - And these are react, view, svelte...
+  
+Backend -
+-  backend is majorly composed of two things..
+  - One is a programming language and that could be even JavaScript.
+  - you can write full fledged backend in the JavaScript 
+  - Server side scripting languages - and that's where you see the names like Node JS and PHP, Django, Python, Ruby on Rails.
+  
+backend is composed of two things...
+  - The first one is being a programming language in itself.
+  - And another thing is some kind of a database.
+
+So let's just say if I can find some of the database.
+  - MySQL
+  - MongoDB
+  - Postgres
+just store your all of the information.
+
+The whole job of a database is to store the information and there are variety and versions of it.
+  
+  
+- NoSQL means some store the information in the tabular format, just like tables, some just store that as JSON
+
+Frontend part which is composed of HTML, CSS and JavaScript.
+
+ROLE -
+
+junior front end engineer -
+Once you understand this part, that means you are almost a junior front end engineer.
+
+mid scale front end engineer -
+add more resources to it, for example tailwind maybe react, you become a decent mid scale front end engineer.
+
+junior backend engineer -
+learn a programming language and know how to write your logics with the backend, that's it, you are a junior backend engineer.
+
+API - 
+  -  acts as a gateway
+  - just call this as an API. And as you can see, this is a medium through which the backend and the front end are interacting with each other.
+  
+  - our front end is also JavaScript, our backend is also JavaScript.
+  - data is always going to come in this format and that format usually is known as JSON.
+  
+  - sends the data in the API format, in the JSON format, and whenever server needs to send data to the front end, they also send it in the API format.
+
+
+22/09/24
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+------------------------- Section 4 - Learn HTML ------------------------- 
+
+---------------------
+11 - What is HTML
+---------------------
+
+HTML -
+
+HTML hypertext markup language. So the idea behind the HTML and the innovation or the experimentation, how the HTML came into the picture was just research paper.
+In the earlier days, scientists wanted to
+spread around their research work and send those research paper to multiple people.
+And that's where the web was invented.
+
+- almost all of the tags are acting as a container.
+
+HTML is divided into two part, 
+1] - the first one being the head of it. Now, head is metadata.
+   - Information about a document.Just like you have information about your MP3 files or mp4 files.
+   E.g. - for example, extension, it's mp4 file.
+   
+Head - Head portion usually contains some of the informations or the metadata.
+     E.g. titles, favicons
+
+Body - The actual content actually lives inside the body of it.
+     -  the body actually contains the visible part of it.
+
+Q. - why precisely the Name index?
+=>
+  - So remember when I told you about the web servers that we have some of the web servers.
+  - remember here, these servers are configured to pick up some of the files automatically.
+  - One of the name is index. That's why whenever we actually name any file index, that means that's a default file.
+  
+doctype -  
+   - In the earlier days there used to be a lot many doctypes because browser was serving so many of the documents HTML and different versions of HTML.
+   - first line of the HTML is doctype HTML.(! exclamation sign here.This is just a syntax)
+   - the document that you are about to serve on the web page, it supports the HTML and the latest version of the HTML, the HTML five.
+   
+- HTML consists of two part head and body. 
+
+lang="en"
+the language is going to be English and yes, you guessed it right, you can have much more languages.
+
+
+- web browser doesn't really obey the rule like that.
+- It has its own way of handling the line spaces and the line breaks and whatnot.
+
+
+
+27/10/24
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+---------------------
+12 - Emmet, heading & block vs inline
+---------------------
+
+
+----Resources------
+heading_list.html
+-------------------
+
+---- Documentation ------
+Html w3 school -
+https://www.w3schools.com/html/
+
+HTML mdn - 
+https://developer.mozilla.org/en-US/docs/Web/HTML
+---------------
+
+Shortcuts -
+
+html structure --> ! + tab
+Heading --> h1>lorem6 + tab
+Duplicate element --> Shift + alt + down arrow
+
+
+- 6 levels of headings And from h1 to h6. This is h1 is bigger, h2 is small.
+- The h1 is considered as the most important heading on your page. h2, little bit less of an important. h3, little less. 
+- Paragraph is just a text content.
+
+
+Emmet - use to generate HTML and all these CSS really fast, It gives you syntax, abbreviation.
+
+---- Emmet Documentation ------
+https://docs.emmet.io/abbreviations/
+---------------
+
+Inject the image - img + Enter
+
+<img src="./images/N.jpg" alt="">
+
+
+Link takes onto some other website - a + Enter
+
+<a href="https://chaicode.com"> go to chaicode</a>
+
+
+HTML Known -
+
+Element - including starting tag, end tag and the content in between. This is an element.<h1>....</h1>
+E.g. -
+	<h1>Lorem ipsum dolor sit amet consectetur.</h1> 
+
+Attributes OR Properties of tag - href..., src.., alt...
+E.g. -
+	href="https://chaicode.com"
+	img src="./images/N.jpg" 
+	alt=""
+
+
+tooltip in heading h1 - 
+E.g -
+	<h1 title="chaicode">Lorem ipsum dolor sit amet consectetur.</h1>
+	
+Automatically open main on click - a:mail
+E.g. -
+	<a href="mailto:sw@g.com">mail to</a>
+	
+Click to open internal resource - 
+E.g. -
+	<a href="./index.html">go to index</a>
+	
+
+list items --> ul*li*2
+=>
+	<ul>
+            <li></li>
+            <li></li>
+    </ul>
+
+
+Unordered list - unordered list could be like grocery item. It doesn't really matter if you buy.
+=>
+	<ul> 
+            <li>Orange tea</li>
+            <li>Black tea</li>
+    </ul>
+
+
+Ordered list - some cooking instruction then it really matters what first?
+=>
+    <ol>
+            <li>Orange tea</li>
+            <li>Black tea</li>
+    </ol>
+	
+
+
+Block level elements & Inline elements -
+
+- img & a tag all are in 1 line & heading h1 7 h2 in different line.
+
+Block level -
+	- block means it's a block.
+	- it takes the entire block of your browser.
+	- is going to consume whole space from left to right.
+
+Inline means - 
+	- within the line.
+	- within the line, they don't consume or claim the territory of the entire block.
+
+
+Q. - Trick to find out which one is actually an inline element and which one is actually a block level element -
+=>
+In Chrome --> Inspect page --> Check element click
+
+
+Container - div 
+	- dev is considered as a container, So this is just a wrapper, a box.
+
+
+strong tag V/S bold tag -
+
+E.g. - 
+	<p>Lorem ipsum ,<strong>dolor</strong> sit.</p>
+	<p>Lorem ipsum ,<b>dolor</b> sit.</p>
+	
+==> O/p is same but,
+    - the difference is between the understandability of the screen readers and the accessibility of the website.
+	- When you say bold, it just a bold, it doesn't do anything extra.
+	- But when you say strong that means there's some strong emphasis with this particular keyword.
+	- and there is some importance of it.
+
+	
+em tag V/S i tag -
+
+E.g. -
+	<p>Lorem ipsum ,<em>dolor</em> sit.</p>
+    <p>Lorem ipsum ,<i>dolor</i> sit.</p>
+
+==> O/p which does exactly same italicize. But,
+    - i tag is just a fancy nature of displaying visual hierarchy.
+	- Visually we take care of the things in the CSS, not here, here what's more important for me is there should be emphasis on this word.
+	
+
+E.g. - 01_intro.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Headings</title>  
+</head>
+<body>
+      <h1 title="chaicode">Lorem ipsum dolor sit amet consectetur.</h1>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium sed eos vero dolorum deserunt doloremque esse porro libero quis totam?</h4>
+      <a href="https://chaicode.com"> go to chaicode</a>
+      <a href="mailto:sw@g.com">mail to</a>
+      <a href="./index.html">go to index</a>
+      <img src="./images/N.jpg" width="300px" alt="">
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur natus vitae quia commodi laudantium, esse eum libero voluptatibus asperiores error facilis similique aperiam sapiente sunt ratione perspiciatis adipisci! Aliquid, repellendus. Eveniet, possimus deserunt expedita quae vel voluptate quasi libero recusandae? Sequi omnis ipsam nihil, illo corporis voluptatibus atque distinctio, labore error eum impedit aliquam nostrum. Minima reiciendis cum saepe esse consectetur dignissimos. Hic labore officiis eos explicabo alias, architecto amet distinctio exercitationem commodi officia. Quam laborum doloremque enim libero, quaerat illo dicta autem necessitatibus sint quis? Rerum excepturi neque ipsum modi expedita quaerat voluptatum quisquam deserunt enim, consequuntur possimus iste fugit porro magnam ratione assumenda eum velit aliquam dolores corrupti? Doloremque temporibus facilis eaque asperiores perspiciatis placeat voluptatem rem nam quo dignissimos! Quisquam voluptatum tempora pariatur in placeat magnam magni ea delectus recusandae nostrum, earum rerum! Reiciendis, eos eius. Fugiat provident officiis id maiores quod, accusamus assumenda mollitia dolore quos.</p>
+
+      
+</body>
+</html>
+
+
+
+E.g. - 02_heading_list.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>lists</title>
+</head>
+<body>
+      <h1>Lorem ipsum dolor.</h1>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <p>Lorem ipsum ,<strong>dolor</strong> sit.</p>
+      <!-- <p>Lorem ipsum ,<strong>dolor</strong> sit.</p> -->
+      <p>Lorem ipsum ,<em>dolor</em> sit.</p>
+      <!-- <p>Lorem ipsum ,<i>dolor</i> sit.</p> -->
+
+      <!-- List item -  ul*li*2 -->
+      <!-- Unordered list -->
+      <ul> 
+            <li>Orange tea</li>
+            <li>Black tea</li>
+      </ul>
+
+      <!--       
+      Ordered list
+      <ol>
+            <li>Green tea</li>
+            <li>Yellow tea</li>
+      </ol> 
+      -->
+
+      <img src="./images/N.jpg" width="200px" alt="">
+
+      <div>
+            <h1>Block level elements</h1>
+            <ul>
+                  <li>heading h1 to h6</li>
+                  <li>ol, li</li>
+                  <li>li</li>
+                  <li>p</li>
+            </ul>
+      </div>
+
+      <div>
+            <h1>Inline elemnts</h1>
+            <ul>
+                  <li>a tags</li>
+                  <li>img</li>
+                  <li>strong</li>
+                  <li>em</li>
+            </ul>
+      </div>
+
+
+</body>
+</html>
+
+
+
+
+/10/24
+
+
+-----------------------------------------------------X----------------------------------------------------------
+
+
+---------------------
+13 - Tables and forms in HTML
+---------------------
+
